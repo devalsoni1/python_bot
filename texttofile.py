@@ -2,7 +2,7 @@ import os
 from aiogram import Bot,Dispatcher,executor,types
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-bot = Bot(token='8042143221:AAELqCxpGLs44Gs37Ige_O85dW14wGAoYzY')
+bot = Bot(token='')
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start','help'])
