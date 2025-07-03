@@ -4,7 +4,7 @@ from aiogram import Bot, Dispatcher, executor, types
 bot = Bot(token='')
 dp = Dispatcher(bot)
 
-API_KEY = "a2e6f80850be661dfec45124c6e8baf1"
+API_KEY = ""
 
 @dp.message_handler(commands=['start', 'help'])
 async def welcome(message: types.Message):
